@@ -1,0 +1,76 @@
+img, embed, object, video{
+  max-width: 100%;
+}
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(228, 47, 146);
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(228, 47, 146);
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(224, 36, 152);
+    color: rgb(255, 255, 255);
+  }
+
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(235, 144, 238);
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(175, 170, 170);
+  }
